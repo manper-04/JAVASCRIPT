@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container my-5 text-center">
+      <button class="btn btn-success w-100" onClick="traer();">Obtener</button>
+      <div class="mt-5" id="contenido">
+        <p></p>
+      </div>
+    </div>
+
+    <script>
+
+      var contenido = document.querySelector('#contenido');
+      function traer(){
+        fetch('texto.txt')
+        .then(data => data.text())
+        .then(data => {
+          contenido.innerHTML = `${data}`
+        })
+
+      }
+
+    </script>
+
+  </body>
+</html>
