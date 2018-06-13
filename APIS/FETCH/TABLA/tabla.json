@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manuel",
+    "email": "manper95@gmail.com",
+    "estado": true
+
+  },
+  {
+    "id": 2,
+    "nombre": "Pedro",
+    "email": "pedro9@gmail.com",
+    "estado": true
+
+  },
+  {
+    "id": 3,
+    "nombre": "Olmedo",
+    "email": "olmedo10@gmail.com",
+    "estado": true
+
+  },
+  {
+    "id": 4,
+    "nombre": "Juan",
+    "email": "Juan10@gmail.com",
+    "estado": true
+
+  }
+]
